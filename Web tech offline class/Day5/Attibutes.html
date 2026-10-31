@@ -9,14 +9,17 @@
     <h1 align="center" title="This is the heading of the page">Attributes</h1>
     <!-- title Attribute is used to add extra information about the content -->
     <hr>
-    <h2>Types of Attributes</h2>
-    <p>1.Core</p>
-    <p>2.Generic</p>
-    <p>3.internationalization</p>
-    <p>4.global</p>
-    <hr>
+    <div>
+        <h2>Types of Attributes</h2>
+        <p>1.Core</p>
+        <p>2.Generic</p>
+        <p>3.internationalization</p>
+        <p>4.global</p>
+    </div>
+        <hr>
 
-    <h2 title="This is the extrac inormaion about the h3 heading">Title</h2>
+
+    <h2 title="This is the extrac informaion about the h3 heading">Title</h2>
 
     <h2 style="color: pink;">Style</h2>
     <!-- style Attribute can be used in any tag of html and used for the inline css -->
@@ -29,37 +32,66 @@
      <!-- class attributes is used to group of multiple element -->
       <!-- we can assign multiple elements to same class name to group them -->
 
-      <!-- few generic attributes -->
-    <!-- the class and id name should be a alphanumeric form -->
-     <!-- hrf for hyperreference : it used in a -->
-      <!-- src is used for source : it used in img, audio, video -->
-       <!-- align is used to align text : left, right, center -->
+    <div>
+        <!-- few generic attributes -->
+        <!-- the class and id name should be a alphanumeric form -->
+        <!-- hrf for hyperreference : it used in a -->
+        <a href="practice_set.html"></a>
+        <!-- src is used for source : it used in img, audio, video -->
+        <img src="https://www.linkedin.com/in/soumya0080/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJMptVkpjRKKK7CSFICkdRA%3D%3D" alt="profile image"><br>
+        <!-- align is used to align text : left, right, center -->
+        <b align="center">Soumya Ranjan</b>
         <!-- height, width :we can use this in block level element and also in few specific inline elements also :img,video -->
-        
-    <!-- internationalization attributes -->
-     lang : language / it used in root tag (en,mr,)
-     <!-- dir is used to write the direction of the text (rtf, ltr), it have default value ltr -->
-      <h2  dir="rtl">Soumya Ranjan Mohanta</h2>
-    
-    <!-- global attributes -->
-     <!-- these are used in all html element -->
-     <!-- tabelement : focus on element, it allows us to manage out webpage without mouse -->
-      <!-- =====in tabelement we can put a numeric value , the default value is 0 -->
-       <!-- =====Interview Question : can we use the -ve value in tabelement(ans:yes but we need to use javascript) -->
-       <!-- =====if we have lower value that have higher preference -->
-        <!-- =====where to use : forms, -->
-     <!-- accesskey : by this atributes we can create shortuts -->
-      <!-- to uses this we have to press alt + key -->
-       <!-- these are generally used in buttons,i/p, img -->
-        <button accesskey="y">click here (alt+y)</button>
-    <!-- dragabble="true/false" -->
-     <!-- default value false -->
-     <h2 draggable="true">Dragable element</h2>
-    <!-- translate="yes/no" -->
-     <p translate="no">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dignissimos.</p>
-     <p translate="yes">Soumya Ranjan</p>
-     <!-- it used to restrict the texts from translation -->
+        <hr>
+    </div>
 
+    <div>
+        <!-- internationalization attributes -->
+        lang : language / it used in root tag (en,mr,)
+        <!-- dir is used to write the direction of the text (rtf, ltr), it have default value ltr -->
+        <h2  dir="rtl">Soumya Ranjan Mohanta</h2>
+        <hr>
+    </div>
+    
+    <div>
+        <h2>Global Attributes</h2>
+        <!-- global attributes : these are used in all html element -->
+         <div>
+             <!-- tabelement : focus on element, it allows us to manage out webpage without mouse -->
+             <!-- =====in tabelement we can put a numeric value , the default value is 0 -->
+             <!-- =====Interview Question : can we use the -ve value in tabelement(ans:yes but we need to use javascript) -->
+             <!-- =====if we have lower value that have higher preference -->
+             <!-- =====where to use : forms, -->
+             <p tabelement="1">Demo paragraph text</p>
+             <p tabelement="2">Demo paragraph text</p>
+             <p tabelement="3">Demo paragraph text</p>
+             <p tabelement="4">Demo paragraph text</p>
+             <p tabelement="5">Demo paragraph text</p>
+        </div>
+        <div>
+            <!-- accesskey : by this atributes we can create shortuts -->
+            <!-- to uses this we have to press alt + key -->
+            <!-- these are generally used in buttons,i/p, img -->
+            <button accesskey="y">click here (alt+y)</button>
+        </div>
+        <div>
+            <!-- dragabble="true/false" -->
+            <!-- default value false -->
+            <h2 draggable="true">Dragable element</h2>
+        </div>
+        <div>
+            <!-- translate="yes/no" -->
+            <p translate="no">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, dignissimos.</p>
+            <p translate="yes">Soumya Ranjan</p>
+            <!-- it used to restrict the texts from translation -->
+        </div>
+        <div>
+            <!-- contenteditable"true/false" -->
+            <!-- it edit the content in your page only for temprary -->
+             <h2 contenteditable="true">This is a editable text</h2>
+        </div>
+    </div>
+        
 
 </body>
 </html>
