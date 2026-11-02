@@ -1,0 +1,10 @@
+Interview Purpose
+------------------------------------------------------------------------------
+ordered lists:
+==============
+1.what if we put any number in type
+2.reversed in list (type is 'a'),what if the values goes negative 
+    ex: if it starts '3' in 5 lists and it reversed(type 'a')
+    ex2: if it starts from 27 and type 'a'
+    ex3 : what if we put 1000 for the roman numbers
+        it resets
