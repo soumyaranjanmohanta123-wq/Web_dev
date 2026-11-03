@@ -1,0 +1,1 @@
+1. remember the the size of datatypes and their maiximum values
