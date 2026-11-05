@@ -1,0 +1,36 @@
+Hyper links
+-Redirect
+-Clickable
+-Download Data
+-File
+-Surfe
+
+href : Hyper refetence(we can put the path and links)
+-if we put a # inside href it move the page to top
+-we can pass protocols in the href
+    protocols
+        1.mailto:
+        2.tel
+        3.sms
+        ex: href="mailto:soumyaranjamohanta123@gmaill.com"
+        ex: href="tel:+91...."
+        ex: href="sms:+91...."
+Attributes:
+------------
+1.target:
+    _self: opens in same tab
+    _parent: load->same->parent
+    _blank: opens in new tab
+    _top:top of webpage (same page)
+
+2.Download:
+-if we want to download anything we have to put that particular document link
+-2 cases:
+  1.with vaule: it will save the Download file with name
+  2.wihout vaule: save with default name
+
+hyperlinks colors:
+------------------
+    1.purple: not visited
+    2.blue : not visited
+    3.red : active link
