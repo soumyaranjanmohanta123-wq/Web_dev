@@ -17,3 +17,5 @@ Attributes for td:
 Attributes for th:
 ------------------
     1.scope : used for the seo pusrpose and basic undersanding of the table content
+
+emmit fuction in table:
