@@ -1,0 +1,8 @@
+1.alt+z: word wrap
+2.ctrol + shift + -> : it will select the word by word
+3.shift up/down :
+4.alt + click : it will help us edit in multiple places at same time
+5.alt + ctrl up/down : edit multiple lines at once
+6.alt + up/down : shift up/down that line
+7.ctrl + B it will hide/unhide the sidebar
+8.ctrl + space : suggestions
