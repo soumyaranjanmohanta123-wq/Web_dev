@@ -1,0 +1,37 @@
+sementic tags in html table:
+-----------------------------
+thead: table header
+tbody: table body
+tfoot: table footer
+
+caption tag :
+ - it is not the table, we can use that for any tag
+ - genrrally it used to add extra information about any content.
+
+note : 
+1. it we put any data inside table without td or th tag inside the table it will through that content on top of the table head
+2. We can create a nested table also
+
+froms:
+------------------------------------------------------
+<forms>
+    attributes:
+        action:destination url(specify where to send the data)
+        method:(get/post)
+        novalidate: 3 types (FE,backend,DB)
+            - with this and attribute we just specify the rules for the input(like password)
+            - we can use that in javascript
+input:
+    attribute:
+    name: is just for naming the specific field
+    type: more than 15 types
+        1.default: text (it will be the combination of aphabet,numbers, any special characters)
+        2.passwords: used for passwords
+        3.email
+        4.tel
+        5.color
+        6.date
+        7.datetime
+        8.range
+        9.radio
+        10.check
