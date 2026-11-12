@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div style="margin: 20px;">
+            <input type="radio" id="sub" name="sub">
+            <label for="sub">OS</label>
+            <input type="radio" id="DBMS" name="sub">
+            <label for="DBMS">DBMS</label>
+            <input type="radio" id="java" name="sub">
+            <label for="java">JAVA</label>
+            <input type="radio" id="python" name="sub" checked>
+            <label for="python">PYTHON</label>
+        </div>
+        
+        <!-- note -->
+        <!-- checked: by default select the radio button and we can put the attribute in one option olny -->
+        <!-- name : this attribute used to group the different radio buttons -->
+        
+        <div style="margin: 20px;">
+            <input type="checkbox" id="sub" name="sub">
+            <label for="sub">OS</label>
+            <input type="checkbox" id="DBMS" name="sub">
+            <label for="DBMS">DBMS</label>
+            <input type="checkbox" id="java" name="sub">
+            <label for="java">JAVA</label>
+            <input type="checkbox" id="python" name="sub" checked>
+            <label for="python">PYTHON</label>
+        </div>
+         
+        <!-- attributes in input tag -->
+         <!-- -id-name-type -->
+        <!-- maxlength/mainlength -->
+        <!-- reqired -->
+        <!-- selected/checked -->
+        <!-- disable -->
+        <!-- min/max -->
+        
+        <label for="">Name: </label>
+        <input type="text" maxlength="15" minlength="3" >
+        <!-- maxlenghth : it will accept maximun 15 characters //it is frontend level validation -->
+        <!-- minlenghth : it will accept minimum 3 characters //it is frontend level validation -->
+        <!-- we can make these using java script also -->
+
+        <!-- required:mandatory to fill that field -->
+         <!-- selected/checked : -->
+        <!-- display: we can't able t select the input -->
+        <!-- readonly: we ca select that field but can't edit that -->
+        <!-- value: it is the prewritten text in a field -->
+        <!-- placeholder : this is for the hint for a field -->
+        <!-- min/max: it is for the minimun/maximum value generaly used in number type -->
+        
+
+        <!-- dropdown -->
+        <!-- multiple: we can select multiple -->
+        <select name="" id="">
+            <option value="soumya">Soumya</option>
+            <option value="soumya">Soumya</option>
+            <option value="soumya">Soumya</option>
+            <option value="soumya">Soumya</option>
+        </select>
+
+
+<br>
+        <div style="margin: 20px; background-color: beige;">
+            <!-- datalist -->
+            <label for="" list="names">Select from datalist:</label>
+            <input type="text" name="" id="" list="names">
+            <datalist id="names">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Mern">React</option>
+                <option value="Webtech">Webtech</option>
+            </datalist>
+        </div>
+
+        <!-- grouped options -->
+        <select name="" id="">
+            <optgroup value="" label="names1">
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+            </optgroup>
+            <optgroup value="" label="names2">
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+                <option value="soumya">Soumya</option>
+            </optgroup>
+            
+        </select>
+<br>
+        <textarea name="" id="" cols="70" rows="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tenetur? Fugit necessitatibus sequi ea deserunt laudantium autem iusto aliquid repudiandae.</textarea>
+        <!-- fieldset : it created a border outside the form -->
+         <!-- legend: it will add a name with the border -->
+    </form>
+</body>
+</html>
