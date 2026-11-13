@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body style="background: linear-gradient(to right, #e638e3, #feb47b);"">
+    <header>
+        <h1 align="center">School Championship Registration Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <div>
+                <label for="sname">School Name: </label><br>
+                <input type="name" id="sname" required>
+            </div>
+            <div>
+                <label for="schoolarfirstname">Schoolar Name:</label><br>
+                <input type="name" id="schoolarfirstname" placeholder="First" required>
+                <input type="name" id="schoolarlastname" placeholder="Last" required>
+            </div>
+            <div>
+                <label for="parentname">Parent Name: </label><br>
+                <input type="name" id="parentname" placeholder="First" required>
+                <input type="name" id="parentlastname" placeholder="Last" required>
+            </div>
+            <div>
+                <label for="parentphone">Parent Phone: </label>
+                <input type="tel" id="parentphone" placeholder="### ### ####" minlength="10" maxlength="10">
+            </div>
+            <div>
+                <label for="parentemail">Parent Email: </label>
+                <input type="email" id="parentemail" required>
+            </div>
+            <div align="center">
+                <fieldset style="width: 200px; background-color: beige;">
+                    <label for="verification">Verification</label><br>
+                    <input type="checkbox" required>
+                    <label for="">I'm Not a Robot</label>
+                    <img src="./image.png" alt="captcha" height="40px">
+                </fieldset>
+            </div>
+            <div>
+                <label for="sport">Prefered Sport: </label>
+                <!-- <input type="text" id="sport" required> -->
+                <select name="sport" id="sport">
+                    <option value="cricket">Cricket</option>
+                    <option value="footable">Football</option>
+                    <option value="Tenis">Tenis</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <input type="submit">
+            <!-- <button type="button">Submit</button> -->
+                
+        </form>
+    </main>
+</body>
+</html>
