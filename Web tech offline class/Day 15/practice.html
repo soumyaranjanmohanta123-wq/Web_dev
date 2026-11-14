@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Set</title>
 </head>
+
 <body>
     <header>
         <h1 align="center">PORTFOLIO</h1>
@@ -13,42 +15,141 @@
     <main>
         <table border="1" cellspacing="0px" cellpadding="10px" style="width: 100%; height: 20px;">
             <tr align="center">
-                <td><a style="text-decoration: none; color: black;" href="/Web tech offline class/Day8/project1/home.html">Home</td></a></td>
-                <td><a style="text-decoration: none; color: black;" href="/Web tech offline class/Day8/project1/about.html">About</a></td>
-                <td><a style="text-decoration: none; color: black;" href="/Web tech offline class/Day8/project1/contact.html">Contact</a></td>
-                <td><a style="text-decoration: none; color: black;" href="/Web tech offline class/Day8/project1/home.html">Project</a></td>
-                <td><a style="text-decoration: none; color: black;" href="/Web tech offline class/Day8/project1/about.html">Skills</a></td>
+                <td><a style="text-decoration: none; color: black;" href="#">Home</td></a></td>
+                <td><a style="text-decoration: none; color: black;" href="#aboutme">About</a></td>
+                <td><a style="text-decoration: none; color: black;" href="#contact">Contact</a></td>
+                <td><a style="text-decoration: none; color: black;" href="#">Project</a></td>
+                <td><a style="text-decoration: none; color: black;" href="#skills">Skills</a></td>
             </tr>
         </table>
         <hr>
         <table border="1" cellspacing="0" cellpadding="" style="width: 100%; height: 450px;">
             <thead>
-                <tr>
-                    <td align="center" style="width: 50%;">
-                        <strong>Hii😊</strong><br>
-                        <strong>I am <ins>Soumya Ranjan</ins></strong><br>
-                        <strong>Associate Software Engineer</strong>
-                        <p>Welcome to my portfolio</p>
-                        <button style="background-color: rgb(211, 208, 208); height: 30px;"><a href="/Web tech offline class/Day8/project1/contact.html"><b>Contact Me</b></a></button>
-                    </td>
-                    <td align="center">
-                        <img src="./image.png" alt="Doremon" height="450px">
-                    </td>
-                </tr>
+                <div id="thead">
+                    <tr>
+                        <td align="center" style="width: 50%;">
+                            <strong>Hii😊</strong><br>
+                            <strong>I am <ins>Soumya Ranjan</ins></strong><br>
+                            <strong>Associate Software Engineer</strong>
+                            <p>Welcome to my portfolio</p>
+                            <button style="background-color: rgb(211, 208, 208); height: 30px;"><a
+                                    href="/Web tech offline class/Day8/project1/contact.html"><b>Contact
+                                        Me</b></a></button>
+                        </td>
+                        <td align="center" colspan="2">
+                            <img src="./image.png" alt="Doremon" height="450px">
+                        </td>
+                    </tr>
+                </div>
             </thead>
             <tbody>
-                <tr style="height: 50px;">
-                    <td align="center" colspan="2"><strong>About Me</strong></td>
-                </tr>
-                <tr align="center">
-                    <td colspan="2">
-                        <p>Hello! My name is <strong>Soumya Ranjan</strong>. I am an <strong>Associate Software Engineer</strong> and a passionate software developer.</p>
-                        <p>I hold a Master of <strong>Computer Applications (MCA)</strong> and a <strong>Master of Business Administration (MBA)</strong>, combining academic knowledge of technology and business management.</p>
-                        <p></p>
-                    </td>
-                </tr>
+                <div id="aboutme">
+                    <tr style="height: 50px;">
+                        <td align="center" colspan="3"><strong>About Me</strong></td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="3">
+                            <p>Hello! My name is <strong>Soumya Ranjan</strong>. I am an <strong>Associate Software
+                                    Engineer</strong> and a passionate software developer.</p>
+                            <p>I hold a Master of <strong>Computer Applications (MCA)</strong> and a <strong>Master of
+                                    Business Administration (MBA)</strong>, combining academic knowledge of technology
+                                and
+                                business management.</p>
+                            <p>I enjoy learning new technologies and building projects that help me to improve my
+                                programming and development skills</p>
+                            <p>My goal is to continously improve my technical knowledge and become a Full Stack
+                                Developer
+                            </p>
+                        </td>
+                    </tr>
+                </div>
+                <div id="skills">
+                    <tr align="center" style="height: 40px;">
+                        <td colspan="3"><b>Skills</b></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Technical Skills</li>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Sql and Database</li>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>Rest APIs</li>
+                                </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Framework and Librries</li>
+                                <ul>
+                                    <li>React JS</li>
+                                    <li>Tailwind CSS</li>
+                                </ul>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Tools and Platforms</li>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>Notion</li>
+                                </ul>
+                            </ul>
+                        </td>
+                    </tr>
+                </div>
+                <div id="contact">
+                    <tr align="center" style="height: 40px;">
+                        <td colspan="3"><b>Contact</b></td>
+                    </tr>
+                    <tr align="center">
+                        <td rowspan="3">
+                            <h4><u>Contact Me</u></h4>
+                            <form action="">
+                                <div>
+                                    <label for="name">Name: </label>
+                                    <input type="text" id="name" placeholder="Enter your full name" required>
+                                </div>
+                                <div>
+                                    <label for="email">Email: </label>
+                                    <input type="email" id="email" placeholder="Enter your email" required>
+                                </div>
+                                <div>
+                                    <label for="phone">Mobile: </label>
+                                    <input type="tel" id="phone" placeholder="Mobile no" value="+91" minlength="10"
+                                        maxlength="10" required>
+                                </div>
+                                <div>
+                                    <label for="address">Address</label>
+                                    <input type="text" id="address" minlength="5" required>
+                                </div>
+                                <button
+                                    style="margin: 20px; height: 30px; width: 70px; border-radius: 10px;">Submit</button>
+                            </form>
+                        </td>
+                        <td><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                                alt="instagram" width="70px"></td>
+                        <td rowspan="3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.467446367086!2d85.7996984750307!3d20.28090981304438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d32fffffff%3A0xdc4d4bcad001a31f!2sQSpiders%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1794684746062!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+                                alt="linkedin" width="70px"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="70px">
+                        </td>
+                    </tr>
+                </div>
             </tbody>
         </table>
     </main>
 </body>
+
 </html>
