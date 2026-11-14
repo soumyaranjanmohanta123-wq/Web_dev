@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumya Ranjan | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background: #f8f9f4;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 280px;
+            border-bottom: 1px solid #d6ded6;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 30px;
+            color: #426b59;
+            margin-bottom: 12px;
+        }
+
+        .hero-content h3 {
+            font-size: 19px;
+            font-weight: normal;
+            margin-bottom: 12px;
+        }
+
+        .hero-content p {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .contact-btn {
+            text-decoration: none;
+            color: #426b59;
+            border: 1px solid #426b59;
+            padding: 9px 22px;
+            font-size: 13px;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: #426b59;
+            color: white;
+        }
+
+        .hero-image {
+            background: #dcebe2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hero-image img {
+            max-width: 80%;
+            max-height: 240px;
+            object-fit: contain;
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+            padding: 30px 50px;
+            border-bottom: 1px solid #d6ded6;
+        }
+
+        .section-title {
+            font-size: 21px;
+            color: #426b59;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 14px;
+            line-height: 1.9;
+            color: #666;
+            margin: 8px auto;
+            max-width: 900px;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 30px 35px;
+            text-align: center;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 25px;
+            border: 1px solid #d6ded6;
+        }
+
+        .skill-box {
+            padding: 25px;
+            text-align: left;
+            border-right: 1px solid #d6ded6;
+        }
+
+        .skill-box:last-child {
+            border-right: none;
+        }
+
+        .skill-box h3 {
+            color: #426b59;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .skill-box ul {
+            padding-left: 20px;
+        }
+
+        .skill-box li {
+            font-size: 13px;
+            color: #666;
+            margin: 9px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 700px) {
+            .hero {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-image {
+                min-height: 200px;
+            }
+
+            .about {
+                padding: 30px 20px;
+            }
+
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+
+            .skill-box {
+                border-right: none;
+                border-bottom: 1px solid #d6ded6;
+            }
+
+            .skill-box:last-child {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>I am Soumya Ranjan</h1>
+
+            <h3>Python Full Stack Developer</h3>
+
+            <p>MCA Graduate | Aspiring Software Developer</p>
+
+            <a href="mailto:soumyaranjanmohanta@gmail.com"
+               class="contact-btn">
+                Contact Me →
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <!-- Replace with your profile image -->
+            <img src="profile.png" alt="Soumya Ranjan">
+        </div>
+
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            Hello! My name is Soumya Ranjan. I am an MCA graduate
+            and an aspiring Python Full Stack Developer with an
+            interest in software development and problem-solving.
+        </p>
+
+        <p>
+            I have hands-on experience in Python, Django, SQL,
+            HTML, CSS and JavaScript. I enjoy developing web
+            applications and building practical projects that
+            solve real-world problems.
+        </p>
+
+        <p>
+            I have worked on projects like MotoHub, an automobile
+            e-commerce platform, and NeuraGrid, a smart home
+            automation project.
+        </p>
+
+        <p>
+            My goal is to continuously improve my technical
+            knowledge, explore new technologies and grow as
+            a skilled software developer.
+        </p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Frameworks and Libraries</h3>
+                <ul>
+                    <li>Django</li>
+                    <li>Django REST Framework</li>
+                    <li>Bootstrap</li>
+                    <li>NumPy</li>
+                    <li>Pandas (Learning)</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Tools and Platforms</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                    <li>SQLite</li>
+                    <li>Arduino IDE</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
