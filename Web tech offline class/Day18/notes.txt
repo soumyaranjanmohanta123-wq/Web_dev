@@ -1,0 +1,107 @@
+A. Universal Selector (`*`)
+============================
+1\. Select all HTML elements and set their text color to red.
+    * Selector: Universal (`*`)
+    * Property: `color`
+    * Value: `red`
+
+2\. Select all HTML elements and set their font size to 20px.
+    * Property: `font-size`
+    * Selector: Universal (`*`)
+    * Value: `20px`
+
+3\. Select all HTML elements and set their background color to lightblue.
+
+* Selector: Universal (`*`)
+    * Property: `background-color`
+    * Value: `lightblue`
+
+4\. Select all HTML elements and set their margin to 15px.
+    * Selector: Universal (`*`)
+    * Property: `margin`
+    * Value: `15px`
+
+    B. Element / Tag Selector
+    5\. Select all paragraph (`p`) elements and change their text color to blue.
+    * Selector: Element (`p`)
+    * Property: `color`
+    * Value: `blue`
+
+6\. Select all first-level headings (`h1`) and change their text color to green.
+    * Selector: Element (`h1`)
+    * Property: `color`
+    * Value: `green`
+
+7\. Select all second-level headings (`h2`) and set their font size to 30px.
+    * Selector: Element (`h2`)
+    * Property: `font-size`
+    * Value: `30px`
+
+8\. Select all division (`div`) elements and set their background color to pink.
+    * Selector: Element (`div`)
+    * Property: `background-color`
+    * Value: `pink`
+
+    C. ID Selector (`#`)
+
+9\. Select the HTML element having ID `heading` and change its text color to purple.
+    * Selector: ID (`#heading`)
+    * Property: `color`
+    * Value: `purple`
+
+10\. Select the HTML element having ID `box` and set its background color to yellow.
+    * Selector: ID (`#box`)
+    * Property: `background-color`
+    * Value: `yellow`
+
+11\. Select the HTML element having ID `title` and set its font size to 35px.
+    * Selector: ID (`#title`)
+    * Property: `font-size`
+    * Value: `35px`
+
+12\. Select the HTML element having ID `container` and give it a 2px solid black border.
+    * Selector: ID (`#container`)
+    * Property: `border`
+    * Value: `2px solid black`
+    ### D. Class Selector (`.`)
+
+13\. Select all HTML elements having class `demo` and change their text color to orange.
+    * Selector: Class (`.demo`)
+    * Property: `color`
+    * Value: `orange`
+
+14\. Select all HTML elements having class `box` and set their background color to lightgreen.
+    * Selector: Class (`.box`)
+    * Property: `background-color`
+    * Value: `lightgreen`
+
+15\. Select all HTML elements having class `text` and set their font size to 25px.
+    * Selector: Class (`.text`)
+    * Property: `font-size`
+    * Value: `25px`
+
+16\. Select all HTML elements having class `center` and align their text to the center.
+    * Selector: Class (`.center`)
+    * Property: `text-align`
+    * Value: `center`
+    ### E. Grouping Selector (`,`)
+
+17\. Select both `h1` and `p` elements and change their text color to red.
+    * Selector: Grouping (`h1, p`)
+    * Property: `color`
+    * Value: `red`
+
+18\. Select both `h2` and `h3` elements and set their background color to lightyellow.
+    * Selector: Grouping (`h2, h3`)
+    * Property: `background-color`
+    * Value: `lightyellow`
+
+19\. Select `h1`, `h2` and `p` elements and set their font size to 22px.
+    * Selector: Grouping (`h1, h2, p`)
+    * Property: `font-size`
+    * Value: `22px`
+
+20\. Select `h1`, `h2` and `h3` elements and align their text to the center.
+    * Selector: Grouping (`h1, h2, h3`)
+    * Property: `text-align`
+    * Value: `center`.
