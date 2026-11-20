@@ -1,0 +1,8 @@
+What is Internal CSS?
+What is External CSS?
+Where do we write Internal CSS?
+Which HTML tag is used to connect an External CSS file?
+Can we use multiple CSS files in one HTML page?
+What is the difference between Internal CSS and External CSS?
+What happens if the CSS file path is incorrect?
+Can we apply CSS to multiple HTML pages using one External CSS file? 
