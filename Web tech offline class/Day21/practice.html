@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* tag selector */
+        /* p{
+            background-color: red;
+        } */
+
+        /* decendent selector: it will select all children */
+         /* div    p{
+            background-color: blue;
+         } */
+
+        /* child selector: it will secelect the direct childs */
+        #parent>p{
+            background-color: aqua;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div id="parent">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <span>Lorem, ipsum dolor.</span>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        <!-- 1st nested div -->
+        <div id="1nested">
+            <p>nested div.</p>
+            <h3>Lorem, ipsum dolor.</h3>
+
+            <!-- 2nd nested div -->
+            <div id="2nd nested">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
