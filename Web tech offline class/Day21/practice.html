@@ -11,16 +11,25 @@
         } */
 
         /* decendent selector: it will select all children */
-         /* div    p{
+         /* div p{
             background-color: blue;
          } */
 
-        /* child selector: it will secelect the direct childs */
+        /* child selector: it will secelect the direct childs()11st level child */
         #parent>p{
             background-color: aqua;
         }
-
-
+        #nested>p{
+            background-color: blue;
+            color: white;
+        }
+        #nested2>p{
+            background-color: beige;
+            color:blue;
+        }
+        #parent{
+            border: 2px solid black; 
+        }
 
     </style>
 </head>
@@ -33,12 +42,12 @@
         <p>Lorem ipsum dolor sit amet consectetur.</p>
 
         <!-- 1st nested div -->
-        <div id="1nested">
+        <div id="nested">
             <p>nested div.</p>
             <h3>Lorem, ipsum dolor.</h3>
 
             <!-- 2nd nested div -->
-            <div id="2nd nested">
+            <div id="nested2">
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
         </div>
