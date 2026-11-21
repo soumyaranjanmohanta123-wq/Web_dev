@@ -1,0 +1,15 @@
+/* question1: all paragraphs of the page */
+p{
+    background-color: skyblue;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+/* question2: A: Header	Make the "Code Cafe" title (class site-title) teal. */
+.site-title{
+    color: teal;
+}
+/* question3: Header Give the header (id top-header) a light yellow background. */
+#top-header{
+    background-color: yellow;
+}

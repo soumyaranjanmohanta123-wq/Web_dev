@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SECTION A: HEADER -->
+    <header id="top-header">
+      <h1 class="site-title">Code Cafe</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#intro" class="active">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SECTION B: INTRO -->
+      <section id="intro">
+        <h2>Welcome</h2>
+        <p class="lead">Fresh coffee and tasty snacks.</p>
+        <p>Open every day from 8 AM to 10 PM.</p>
+        <p class="note">Free Wi-Fi for all customers.</p>
+      </section>
+
+      <!-- SECTION C: MENU CARDS -->
+      <section id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="card">
+          <h3>Cappuccino</h3>
+          <p>Rich and creamy.</p>
+          <span class="price">Rs. 120</span>
+        </div>
+
+        <div class="card special">
+          <h3>Cold Coffee</h3>
+          <p>Best seller of the month.</p>
+          <span class="price">Rs. 150</span>
+        </div>
+
+        <div class="card">
+          <h3>Sandwich</h3>
+          <p>Grilled with <strong>cheese</strong>.</p>
+          <span class="price">Rs. 90</span>
+        </div>
+      </section>
+
+      <!-- SECTION D: CONTACT FORM -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Your name" />
+          <input type="email" placeholder="Your email" />
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- SECTION E: SIDEBAR -->
+    <aside id="sidebar">
+      <h2>Offers</h2>
+      <ul>
+        <li>Buy 1 Get 1</li>
+        <li>Student discount</li>
+        <li>Happy hour</li>
+      </ul>
+    </aside>
+
+    <!-- SECTION F: FOOTER -->
+    <footer>
+      <p>Copyright 2026 Code Cafe</p>
+      <p class="note">Made with HTML and CSS</p>
+    </footer>
+  </body>
+</html>
