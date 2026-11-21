@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* id sector */
+        #parent{
+            border: 2px solid black; 
+        }
+
         /* tag selector */
         /* p{
             background-color: red;
@@ -16,7 +21,7 @@
          } */
 
         /* child selector: it will secelect the direct childs()11st level child */
-        #parent>p{
+        /* #parent>p{
             background-color: aqua;
         }
         #nested>p{
@@ -26,10 +31,24 @@
         #nested2>p{
             background-color: beige;
             color:blue;
+        } */
+
+        /* adjacent selector: we can target the particular element which is next to the targeted element */
+        /* it will secelect at most one element which is next to the targeted element */
+
+        #nested > div + p{
+            background-color: blue;
+            color: white;
         }
-        #parent{
-            border: 2px solid black; 
-        }
+
+        /* general sibling selector: it will select all the elements which are next to the targeted element */
+        /* this is like the child selector but it will select all the elements which are next to the targeted element(n number of elements) */
+
+        /* p ~ span{
+            background-color: red;
+            color: white;
+        } */
+
 
     </style>
 </head>
@@ -43,13 +62,13 @@
 
         <!-- 1st nested div -->
         <div id="nested">
+            <!-- 2nd nested div -->
+            <div id="grandchild">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
             <p>nested div.</p>
             <h3>Lorem, ipsum dolor.</h3>
 
-            <!-- 2nd nested div -->
-            <div id="nested2">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
         </div>
     </div>
 </body>
