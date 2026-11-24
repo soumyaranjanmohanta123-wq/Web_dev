@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class selector</title>
+    <style>
+        a:link{
+            color: rgb(129, 45, 127);
+        }
+        a:visited{
+            color: rgb(255, 0, 43);
+            background-color: black;
+        }
+        a:hover{
+            background-color: black;
+            color: aqua;
+        }
+        a:active{
+            background-color: rgb(255, 0, 0);
+            color: black;
+        }
+        a{
+            text-decoration: none;
+            padding: 50px;
+            margin: 50px;
+            border: 5px solid black;
+
+        }
+        input:hover{
+            background-color: black;
+            color: white;
+            font-family:'Times New Roman', Times, serif;
+        }
+        div{
+            display: inline-block;
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        div:hover{
+            background-color: rgb(240, 220, 180);
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+        }
+        div:focus,
+        div:focus-visible{
+            border-color: green;
+            background-color: lightgreen;
+            box-shadow: 0 0 0 5px rgba(0, 128, 0, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="https://google.com" target="_blank">Click <span>Me</span></a>
+    <br>
+    <input type="button" value="Submit"> -->
+    <div id="box1" tabindex="0"></div>
+    <div id="box2" tabindex="0"></div>
+    <div id="box5" tabindex="0"></div>
+    <div id="box3" tabindex="0"></div>
+    <div id="box4" tabindex="0"></div>
+</body>
+</html>

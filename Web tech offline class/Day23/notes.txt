@@ -1,0 +1,14 @@
+*pseudo class selectors are used in CSS to define the special state of an element. They allow you to apply styles to elements based on their state or position in the document tree.
+
+1.Dynamic pseudo-classes: These pseudo-classes are used to style elements based on user interaction or changes in the element's state. Some common dynamic pseudo-classes include:
+
+        i  :link - This pseudo-class applies styles to links that have not yet been visited by the user.
+        ii :visited - This pseudo-class applies styles to links that have already been visited by the user.
+        iii :hover - This pseudo-class applies styles to an element when the user hovers over it with a pointing device, such as a mouse.
+        iv :active - This pseudo-class applies styles to an element when it is being activated by the user, such as when a button is being clicked.
+        v :focus - This pseudo-class applies styles to an element when it has received focus, such as when a user clicks on an input field or navigates to it using the keyboard.
+
+2. Structural pseudo-classes: These pseudo-classes are used to style elements based on their position or relationship to other elements in the document tree. Some common structural pseudo-classes include:
+        i :first-child - This pseudo-class applies styles to an element that is the first child of its parent.
+        ii :last-child - This pseudo-class applies styles to an element that is the last child of its parent.
+        iii :nth-child(n) - This pseudo-class applies styles to an element that is the nth child of its parent, where n can be a number, a keyword (like odd or even), or a formula.

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <style>
+        /* it will select all the tags which have any attributes */
+        [id]{
+            background-color: black;
+            color: white;
+        }
+
+        [download]{
+            background-color: purple;
+            color: white;
+        }
+        /* if we want to select any particular id then we need to mention that as a value in that selector */
+        [id=para]{
+            background-color: pink;
+            color:green;
+
+        }
+        /* it will select if the keyword is present in the value */
+        [download |=web]{
+            background-color: blue;
+        }
+        /* | = it will select the keyword as '-' separator */
+        /* ~ = it will select the keyword as ' ' separator */
+        /* ^ = it wil select the the word starts with the value */
+        /* $ = ends with */
+        /* * = works on any type of attributes */
+        
+    </style>
+</head>
+<body>
+    <div id="one">hii</div>
+    <br>
+    <div id="two">hii</div>
+    <hr>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis eaque, rem, temporibus debitis repudiandae itaque explicabo omnis similique, ea reprehenderit minus! Minus perferendis tempore odit omnis harum dolore, unde ab aperiam voluptate delectus facere quibusdam quo alias mollitia cum ducimus quia placeat numquam eveniet sunt! Hic dolorem aperiam ab laborum?</p>
+
+    <h2>anchor tag</h2>
+    <a href="" download><b>Soumya Ranjan Mohanta</b></a>
+    <br>
+    <a href="" download="web-tech"><i>Soumya Ranjan Mohanta</i></a>
+
+    
+</body>
+</html>
