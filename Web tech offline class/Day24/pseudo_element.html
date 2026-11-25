@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p::after{
+            content: "🐱‍👤🤳👀🐱‍🏍";
+        } */
+        /* p::before{
+            content: "🐱‍🏍🤳👀🐱‍👤";
+            color: red;
+        } */
+         p::first-line{
+            color: red;
+            font-size: 16px;
+        }
+        p::selection{
+            color: white;
+            background-color: red;
+        }
+        h1::first-letter{
+            color: red;
+            font-size: 60px;
+        }
+         li::marker{
+            content: "😜";
+            }
+    </style>
+</head>
+<body>
+    <h1>Demo Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium quis ullam nulla sequi, ducimus eum impedit praesentium ab? Vel.</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</body>
+</html>

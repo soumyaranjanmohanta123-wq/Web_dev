@@ -1,0 +1,7 @@
+Pseudo Elements are used to style specified parts of an element. They are not real elements, but they allow you to apply styles to specific parts of an element's content.
+    -::after - This pseudo-element is used to insert content after an element's content. It is often used for adding decorative elements or additional information.
+    -::before - This pseudo-element is used to insert content before an element's content. It is commonly used for adding icons, labels, or other visual elements before the main content of an element.
+    -::first-line - This pseudo-element is used to style the first line of a block-level element. It allows you to apply specific styles, such as font size or color, to the first line of text within an element.
+    -::first-letter - This pseudo-element is used to style the first letter of a block-level element. It allows you to apply specific styles, such as font size, color, or font family, to the first letter of text within an element.
+    -::marker - This pseudo-element is used to style the marker of a list item. It allows you to customize the appearance of the bullet or number that appears before each list item in an ordered or unordered list.
+    -::selection - This pseudo-element is used to style the portion of an element that is selected by the user. It allows you to change the background color, text color, or other styles of the selected text within an element.
