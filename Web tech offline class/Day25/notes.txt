@@ -26,3 +26,57 @@ Colors:
    example: #FF0000 (red), #00FF00 (green), #0000FF (blue)
 ***if we have repeated color characters, we can use shorthand notation: #RGB
    ex: #FF0000 can be written as #F00, #00FF00 can be written as #0F0, and #0000FF can be written as #00F.
+
+
+Text properties in CSS are used to style the text on a webpage. Some common text properties include:
+=====================================================================================================
+1. align: Specifies the alignment of the text (left, right, center, justify).
+-in justify the last line of the paragraph is aligned to the left and the rest of the lines are aligned to both left and right.
+ex : text-align: justify;
+     text-align-last: justify;  //this property is used to align the last line of the paragraph to justify.
+
+2. font-family: Specifies the font of the text.
+3. font-size: Specifies the size of the text.
+4. font-weight: Specifies the weight (boldness) of the text.
+5. text-align: Specifies the alignment of the text (left, right, center, justify).
+
+
+
+Text decoration properties in CSS are used to add decorative effects to text. Some common text decoration properties include:
+===================================================================================================
+text-decoration: Specifies the decoration of the text (underline, overline, line-through, none).
+
+1. text-decoration-line: Specifies the line style of the text decoration.
+    underline: Adds a line below the text.
+    overline: Adds a line above the text.
+    line-through: Adds a line through the text.
+
+2. text-decoration-style: Specifies the style of the text decoration.
+    solid: Adds a solid line.
+    double: Adds a double line.
+    dotted: Adds a dotted line.
+    wavy: Adds a wavy line.
+    dashed: Adds a dashed line.
+
+3. text-decoration-color: Specifies the color of the text decoration.
+
+4. text-decoration-thickness: Specifies the thickness of the text decoration.
+
+
+text spacing properties in CSS are used to control the spacing between characters, words, and lines of text. Some common text spacing properties include:
+===================================================================================================
+1. letter-spacing: Specifies the spacing between characters in a text.
+ex: letter-spacing: 2px;  //adds 2 pixels of space between each character
+    letter-spacing: -1px;  //removes 1 pixel of space between each character
+
+2. word-spacing: Specifies the spacing between words in a text.
+ex: word-spacing: 5px;  //adds 5 pixels of space between each word
+    word-spacing: -2px;  //removes 2 pixels of space between each word
+
+3. text-transform: Specifies the transformation of the text (uppercase, lowercase, capitalize).
+ex: text-transform: uppercase;  //converts all the letters to uppercase
+    text-transform: lowercase;  //converts all the letters to lowercase
+    text-transform: capitalize;  //converts the first letter of each word to uppercase and the rest to lowercase.
+
+4. text-shadow: Specifies the shadow effect of the text.
+ex: text-shadow: 2px 2px 5px red;  //adds a red shadow to the text with 2 pixels of horizontal and vertical offset and 5 pixels of blur radius.
