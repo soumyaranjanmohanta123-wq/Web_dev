@@ -1,0 +1,28 @@
+Color properties in CSS are used to set the color of text, backgrounds, borders, and other elements on a webpage. There are several ways to specify colors in CSS:
+
+Colors:
+=========
+1. Solid Colors:
+-----------------
+       syntax: color-name
+       example: red, blue, green, yellow, etc.
+
+    Rgb Colors: syntax: rgb(red, green, blue)
+       range: 0-255   //0 is the darkest and 255 is the lightest
+
+    rgba Colors: syntax: rgba(red, green, blue, alpha)
+       range: 0-255   //0 is the darkest and 255 is the lightest
+       alpha: 0-1    //0 is fully transparent and 1 is fully opaque
+
+2.HSL:
+   syntax: hsl(hue, saturation, lightness)
+   hue: 0-360
+   saturation: 0%-100%
+   lightness: 0%-100%
+
+
+3.hexadecimal Colors:
+   syntax: #RRGGBB
+   example: #FF0000 (red), #00FF00 (green), #0000FF (blue)
+***if we have repeated color characters, we can use shorthand notation: #RGB
+   ex: #FF0000 can be written as #F00, #00FF00 can be written as #0F0, and #0000FF can be written as #00F.
