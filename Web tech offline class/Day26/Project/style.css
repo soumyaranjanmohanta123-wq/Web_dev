@@ -13,13 +13,18 @@
     padding: 8px;
     padding-left: 60px;
     display: inline-block;
+    vertical-align: middle;
 }
 #nav-shortcuts{
     display: inline-block;
+    height: 80px;
+    vertical-align: middle;
 }
 .nav-shortcuts{
     display: inline-block;
-    padding: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
     text-transform: uppercase;
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,7 +33,7 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.712);
 }
 header nav ul li a sup{
     color:red;
@@ -36,27 +41,49 @@ header nav ul li a sup{
     font-weight: bold;
 }
 #nav-search{
-    height: 100%;
-    background-color: gray;
+    height: 40px;
+    width: 35%;
+    background-color: rgb(226, 225, 225);
     display: inline-block;
-}
-nav div img{
-    height: 100%;
 }
 #nav-search-box{
-    height:100%
-}
-#nav-button{
+    width:200px;
+    height: 60px;
+    border: none;
     display: inline-block;
+    vertical-align: middle;
 }
-header nav div img{
+nav div img{
+    height: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+#nav-search-box{
+    height:90%;
+    vertical-align: middle;
+    font-size: 15px;
+    background-color: rgb(226, 225, 225);
+    vertical-align: middle;
+}
+#nav-buttons{
+    display: inline-block;
+    height: 80px;
+    padding-left: 20px;
+}
+header nav div button img{
     display: block;
     background-color: none;
+    height: 30px;
+    padding: 10px;
 }
 header nav div button{
-    height: 60px;
+
+    height: 80px;
+    width: 65;
+    background-color: white;
     border: none;
     display: inline-block;
     font-weight: bold;
     text-transform: capitalize;
+    vertical-align: middle;
 }
