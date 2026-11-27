@@ -1,0 +1,28 @@
+History of HTML
+==================
+
+HTML (HyperText Markup Language) was created by Tim Berners Lee to make it possible to share information and connect documents through hyperlinks over the internet in year 1991.
+
+***What inspired Tim Berners-Lee to create HTML?
+
+-Tim Berners-Lee known as Inventor of the World Wide Web.
+
+-Tim Berners-Lee was a British computer scientist working at CERN (the European Organization for Nuclear Research) in Switzerland in 1989.
+
+-At CERN, scientists and researchers worked on different projects and needed to share information. However, their documents were stored on different computers and systems, making it difficult to access and connect information easily.
+
+-This inspired him to develop a system that would allow people to access, share, and navigate information by clicking links between documents.
+
+***His idea combined three important technologies:
+
+- HTML: To structure documents.
+- HTTP: To transfer documents between computers.
+- URL: To identify the location of documents and other resources.
+
+Together with a web browser and web server, these technologies formed the foundation of the World Wide Web.
+
+***What was the main reason for creating HTML?
+
+-The main reason was to make information sharing easier for researchers at CERN and allow them to navigate between related documents using hyperlinks.
+
+-Example: A scientist reading a research paper could click a link to open another document instead of searching for it manually on another computer.

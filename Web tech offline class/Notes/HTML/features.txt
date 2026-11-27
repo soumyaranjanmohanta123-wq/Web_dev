@@ -1,0 +1,12 @@
+# Features of HTML
+===================
+- Easy to Learn: HTML has simple tags and a straightforward syntax.
+- Platform Independent: HTML pages can run in browsers across Windows, Linux, macOS, and other operating systems.
+- Hyperlinks: It connects web pages and websites using the `<a>` tag.
+- Multimedia Support: It allows images, audio, and videos to be embedded using tags such as `<img>`, `<audio>`, and `<video>`.
+- Structured Content: It organizes content using headings, paragraphs, lists, tables, and sections.
+- Form Support: It creates forms for collecting user information using `<form>`, `<input>`, and `<button>`.
+- Integration with CSS: CSS is used to style and design HTML elements.
+- Integration with JavaScript: JavaScript adds dynamic behavior and interactivity to web pages.
+- Semantic Elements: Elements such as `<header>`, `<nav>`, `<main>`, and `<footer>` describe the purpose of different page sections.
+- Browser Support: HTML is supported by all major modern web browsers.

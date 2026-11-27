@@ -1,0 +1,19 @@
+What is HTML ?
+---------------
+1. **HTML** (HyperText Markup Language) is the most basic building block of the Web. 
+2. It is the standard coding language used to create and structure web pages.
+3. It is not a programming language; rather, it is a **markup language**
+4. "Hypertext" refers to text containing links that connect web pages to one another, either within a single website or between websites.
+5. HTML uses "markup" to annotate text, images, and other content for display in a Web browser.
+6. Markups are predefined words which are written within `<angular brackets>`
+ex.  `<head>`, `<title>`, `<body>`, `<header>`, `<footer>`, `<article>`, `<section>`, `<p>`, `<div>`, `<span>`, `<img>`,
+
+
+Why HTML ?
+- To create web pages: HTML provides the basic structure of a website.
+- To organize content: It arranges text into headings, paragraphs, lists, and sections.
+- To add images and videos: It displays multimedia content on web pages.
+- To create hyperlinks: It connects one web page to another.
+- To create forms: It allows users to enter information, such as login details and registration data.
+- To structure website layouts: It defines elements such as headers, navigation bars, main content, and footers.
+- To work with CSS and JavaScript: HTML provides the structure, CSS adds styling, and JavaScript adds interactivity.

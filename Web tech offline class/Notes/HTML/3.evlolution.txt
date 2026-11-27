@@ -1,0 +1,62 @@
+Evolution of HTML
+=====================
+
+--`1989 — The idea of the Web`--
+
+- Tim Berners-Lee proposed an information-sharing system at CERN to connect information across different computers.
+
+--`1991 — creation of HTML`--
+
+- The language was officially born with **18 initial tags**.
+
+--`1993 — HTML 1.0` --
+
+- It supported only basic text formatting and hyperlinks.
+- **Hypertext Links:** Introduced the anchor tag (`<a>`) to link documents together across servers.
+- **Basic Text Structure:** Defined foundational structural blocks like headings (`<h1>` through `<h6>`), paragraphs (`<p>`), and line breaks (`<br>`).
+- **Lists:** Supported three basic list types: unordered (`<ul>`), ordered (`<ol>`), and directory/menu lists
+
+--`1995 - HTML 2.0`--  
+
+- The first formal HTML standard was published, providing a common foundation for web documents.
+- **Structure & Layout:** Standardized foundational core elements like headings (`<h1><h6>`), paragraphs (`<p>`), lists (`<ul>`, `<ol>`, `<li>`), and line breaks (`<br>`).
+- **Hyperlinks:** Established core hypertext anchor tags (`<a>`) to link pages together.
+- **Interactive Forms:** Introduced user input forms, including text boxes, radio buttons, checkboxes, and submit buttons.
+- **Inline Images:** Supported basic graphical embedding via the `<img>` tag.
+- **Character Formatting:** Provided basic text modifiers such as bold (`<b>`), italic (`<i>`), and semantic formatting like `<strong>` and `<em>`.
+- **SGML Compliance:** Defined HTML strictly as an application of Standard Generalized Markup Language (SGML).
+
+--`1997 - HTML 3.2` --
+
+- **Tables:** Full support for structural data layout (`<table>`).
+- **Text Flow:** Enhanced image alignment and text wrapping (`align`, `clear`).
+- **Client-Side Image Maps:** Interactive, clickable image zones (`<map>`).
+- **Styling Tags:** New presentational tags like `<font>`, `<center>`, `<u>`, `<sub>`, and `<sup>`.
+- **Placeholders:** Introduction of `<script>` and `<style>` tags for future programming and design use.
+
+**`note :` There is no official HTML 3.0 because the proposal completely collapsed under the weight of the First Browser War.**
+
+--`1999 - HTML 4.01`-- 
+
+- **HTML 4.01** was **a critical maintenance release that fixed bugs in HTML 4.0**. It served as the stable backbone of the World Wide Web for over a decade until HTML5 arrived.
+- **Separation of Content and Style:** Shifted the responsibility of design to Cascading Style Sheets (CSS), deprecating older presentational tags like `<font>` and `<center>`.
+- **Advanced Tables:** Introduced complex table structures including row/column grouping (`<thead>`, `<tbody>`, `<tfoot>`, `<colgroup>`) and explicit accessibility attributes.
+- **Enhanced Forms:** Added accessible form elements like `<fieldset>`, `<legend>`, `<label>`, and the `disabled` / `readonly` attributes.
+- **Scripting and Multimedia:** Standardized generic object embedding via the `<object>` tag and robust scripting support via the `<script>` tag.
+
+--`2000 - XHTML`-- 
+
+- It was designed to bring the strict, well-formed rules of XML to the web for cleaner code.
+- It allows to use userdefined tags.
+- **Strict XML Syntax:** Every document must be well-formed. Elements must always nest correctly (e.g., `<b><i>text</i></b>`, not `<b><i>text</b></i>`).
+- **Lower-Case Elements and Attributes:** All tags and attributes must be written in lowercase (e.g., `<body>` instead of `<BODY>`).
+- **Mandatory Closing Tags:** Every element must be closed. Non-empty tags require a closing tag, and empty elements must close themselves (e.g., `<br />`, `<img />`, `<hr />`).
+
+--`2014 - HTML 5.0`-- 
+
+- HTML5 became a W3C Recommendation, bringing standardized support for audio, video, semantic elements, and graphics through canvas.
+- **Semantic Elements:** Replaced generic `<div>` layouts with meaningful structural tags like `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, and `<footer>` for better SEO and accessibility.
+- **Native Multimedia:** Introduced native `<audio>` and `<video>` tags, eliminating the need for third-party plugins like Adobe Flash.
+- **The Canvas API:** Added the `<canvas>` element, allowing developers to render 2D/3D graphics, animations, and games directly in the browser via JavaScript.
+- **Advanced Form Controls:** Introduced native input types like `type="date"`, `type="email"`, `type="color"`, and `type="number"`, alongside built-in client-side validation.
+- **Web Storage API:** Replaced limited, insecure cookies with `localStorage` and `sessionStorage`, allowing web apps to store larger amounts of data securely on the user's device.

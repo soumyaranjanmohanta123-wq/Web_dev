@@ -1,0 +1,35 @@
+Structure of HTML
+====================
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+1. `<!DOCTYPE html>` 
+    
+    The  <!DOCTYPE html>  declaration is used to specify the version of HTML. In this case, it indicates that the document is written in HTML5, which is the latest version of HTML.
+    
+2. `<html lang="en">` 
+    
+    The <html> element is the root element of the HTML document. Everything inside this element is considered part of the HTML document. All other HTML elements, except the doctype declaration, are contained within it.
+    
+3. `<head>` 
+    
+    The <head> section contains metadata about the document that isn't displayed on the webpage. This section includes important elements like:
+    
+    - **<meta charset="UTF-8">:** Specifies the character encoding for the document (UTF-8 supports most characters from all languages).
+    - **<meta name="viewport" content="width=device-width, initial-scale=1.0">:** Controls the layout on mobile devices by setting the viewport width and scaling.
+    - **<title>** :  The `<title>` tag in HTML defines the title of a webpage, which is displayed in the browser's title bar or tab region.
+4. `<body>` 
+    
+    The <body> tag contains the actual content of the webpage that will be visible to users

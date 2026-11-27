@@ -1,0 +1,47 @@
+# Tags
+
+- HTML Tags are predefined keywords that are enclosed in angular brackets (< >).
+- Each tag has a specific predefined task or purpose.
+
+```html
+Syntax:
+<tagname> content <tagname>
+```
+
+```html
+Ex:
+<p> Hello world </p>
+```
+
+### Types of tags
+
+1. Paired Tags
+2. Unpaired Tags
+
+### Paired Tags / Container tag
+
+- A tag which is required of both opening and closing tags are called paired tags.
+- They also known as Container tag.
+
+```html
+Ex: <p> Hello Web Dev </p>
+```
+
+### Unpaired Tags / Void tags / Empty tags / Self Closing tags
+
+- A Tag which does not require a closing tag is called unpaired tag.
+- They are also Known as , void tags , empty tags , Self closing tags
+
+```html
+Ex: <br> , <hr> , <link> , <meta> , <img> , <input>
+```
+
+### Correct way of writing tag
+
+```html
+<p>Hello</p>    ✅ correct way
+<p>Hello        ❌ avoid to miss closing tag
+<p>Hello</h1>   ❌ use same closing tag
+
+HTML will not throw error if we missed tags
+```
