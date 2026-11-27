@@ -16,8 +16,6 @@
 }
 #nav-shortcuts{
     display: inline-block;
-    padding-left: ;
-
 }
 .nav-shortcuts{
     display: inline-block;
@@ -26,6 +24,7 @@
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 13px;
 }
 a{
     text-decoration: none;
@@ -39,6 +38,7 @@ header nav ul li a sup{
 #nav-search{
     height: 100%;
     background-color: gray;
+    display: inline-block;
 }
 nav div img{
     height: 100%;
@@ -46,7 +46,17 @@ nav div img{
 #nav-search-box{
     height:100%
 }
-header nav div button{
-    height: 100%;
+#nav-button{
     display: inline-block;
+}
+header nav div img{
+    display: block;
+    background-color: none;
+}
+header nav div button{
+    height: 60px;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: capitalize;
 }
