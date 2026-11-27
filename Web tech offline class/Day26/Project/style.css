@@ -2,6 +2,7 @@
     margin: 0;
     font-family:Arial, Helvetica, sans-serif ;
 }
+/* navbar */
 #top-nav{
     height: 80px;
     width: 100%;
@@ -15,11 +16,7 @@
     display: inline-block;
     vertical-align: middle;
 }
-#nav-shortcuts{
-    display: inline-block;
-    height: 80px;
-    vertical-align: middle;
-}
+/* main unordered list */
 .nav-shortcuts{
     display: inline-block;
     height: 80px;
@@ -30,6 +27,12 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 13px;
+}
+/* lists */
+#nav-shortcuts{
+    display: inline-block;
+    height: 80px;
+    vertical-align: middle;
 }
 a{
     text-decoration: none;
@@ -59,7 +62,8 @@ nav div img{
     vertical-align: middle;
 }
 #nav-search-box{
-    height:90%;
+    height:80%;
+    width: 90%;
     vertical-align: middle;
     font-size: 15px;
     background-color: rgb(226, 225, 225);
@@ -86,4 +90,12 @@ header nav div button{
     font-weight: bold;
     text-transform: capitalize;
     vertical-align: middle;
+}
+/* offers section */
+#offers-section div{
+    padding: 3%;
+    text-align: center;
+}
+#offers-section div img{
+    width: 100%;
 }
