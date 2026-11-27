@@ -30,7 +30,7 @@ Colors:
 
 Text properties in CSS are used to style the text on a webpage. Some common text properties include:
 =====================================================================================================
-1. align: Specifies the alignment of the text (left, right, center, justify).
+1. text-align: Specifies the alignment of the text (left, right, center, justify).
 -in justify the last line of the paragraph is aligned to the left and the rest of the lines are aligned to both left and right.
 ex : text-align: justify;
      text-align-last: justify;  //this property is used to align the last line of the paragraph to justify.
@@ -38,7 +38,13 @@ ex : text-align: justify;
 2. font-family: Specifies the font of the text.
 3. font-size: Specifies the size of the text.
 4. font-weight: Specifies the weight (boldness) of the text.
-5. text-align: Specifies the alignment of the text (left, right, center, justify).
+5. text-transform: Specifies the transformation of the text (uppercase, lowercase, capitalize).
+6. text-shadow: Specifies the shadow effect of the text.
+7. text-indent: Specifies the indentation of the first line of a paragraph.
+8. text-wrap: Specifies whether the text should wrap to the next line or not.
+        # two values: normal, nowrap //default value is normal, which allows the text to wrap to the next line. The nowrap value prevents the text from wrapping and keeps it on a single line.
+        
+9.line-height: Specifies the height of the line of text. It can be specified in pixels, ems, or percentages. The default value is normal, which is usually around 1.2 times the font size.
 
 
 
@@ -80,3 +86,4 @@ ex: text-transform: uppercase;  //converts all the letters to uppercase
 
 4. text-shadow: Specifies the shadow effect of the text.
 ex: text-shadow: 2px 2px 5px red;  //adds a red shadow to the text with 2 pixels of horizontal and vertical offset and 5 pixels of blur radius.
+syntax: text-shadow: horizontal-offset vertical-offset blur-radius color;

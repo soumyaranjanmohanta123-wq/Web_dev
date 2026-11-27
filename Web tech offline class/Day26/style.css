@@ -1,0 +1,40 @@
+
+        *{
+            font-family: serif,sans-serif,monospace,fantasy,cursive;
+            font-style: italic;
+            font-width: bold;
+            font-variant: small-caps;
+            font-size: 20px;
+        }
+        section{
+            border: 1px;
+        }
+        /* Question 1&2 */
+        h1{
+            color: navy;
+        }
+        h2{
+            color: teal;
+        }
+        p{
+            color: #1e293b;
+        }
+        #caption-text{
+            color: #002e6e;
+        }
+        #warnign-notice{
+            color:color: rgb(180, 83, 9)
+        }
+        #highlighted-pull-quoted{
+            color: rgb(255, 0, 0);
+        }
+        /* Question 3 */
+        #warning-notice{
+            color: rgb(180, 83, 9)
+        }
+        #highlighted-pull-quoted{
+            rgba(15, 118, 110, 0.85)
+        }
+
+        /* Queation 4 */
+

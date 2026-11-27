@@ -1,0 +1,30 @@
+Font Properties in CS
+=======================
+
+1.font family: serif, sans-serif, monospace, fantasy, cursive
+    serif: Times New Roman, Georgia, Garamond
+    sans-serif: Arial, Helvetica, Verdana
+    monospace: Courier New, Lucida Console, Monaco
+    fantasy: Impact, Papyrus, Comic Sans MS
+    cursive: Brush Script MT, Lucida Handwriting, Pacifico
+
+* If we insert multiple font families in the font-family property, the browser will use the first available font in the list. If the first font is not available, it will try the next one, and so on, until it finds a font that is available on the user's system. This allows for better control over typography and ensures that text is displayed in a visually appealing manner across different devices and platforms.
+
+2.Font Style: normal, italic, oblique
+    normal: The default font style, where the text is displayed in its regular form.
+    italic: A slanted version of the font, often used for emphasis or to indicate titles of works.
+    oblique: Similar to italic, but with a less pronounced slant. It is often used for stylistic purposes.
+
+3.Font Weight:
+
+4.Font-Varient:
+
+5.Font Size: normal, small, large, x-large, x-targe, xx-small, xx-large, value px/em
+
+
+*how to link the google fonts in the webpage.
+-Font face
+
+next class:
+background properties
+units
