@@ -1,0 +1,17 @@
+1.fallback font: suppose we use number of fonts and if the first font is not available in device it will use the next font
+2.font face: we can add different kind of fonts
+    syntax: @fontface{
+        font-family:"soumya"
+        src:url("...")
+        format(" ")
+    }
+
+type of font (format):
+    -ttf:true type format
+    -woff
+    -woff2
+ in css the double quotes is used when we import from external sources
+
+ two ways to add fonts in webpage
+ embed : using 
+ import :using style tag in head

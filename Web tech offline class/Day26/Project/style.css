@@ -43,6 +43,7 @@ header nav ul li a sup{
     font-size:10px;
     font-weight: bold;
 }
+/* whole searchbar section */
 #nav-search{
     height: 40px;
     width: 35%;
@@ -56,15 +57,16 @@ header nav ul li a sup{
     display: inline-block;
     vertical-align: middle;
 }
+/* search image */
 nav div img{
     height: 20px;
     padding: 10px;
     vertical-align: middle;
 }
+/* searchbox (input textbox) */
 #nav-search-box{
     height:80%;
     width: 90%;
-    vertical-align: middle;
     font-size: 15px;
     background-color: rgb(226, 225, 225);
     vertical-align: middle;
@@ -74,14 +76,13 @@ nav div img{
     height: 80px;
     padding-left: 20px;
 }
+/* button icons */
 header nav div button img{
     display: block;
-    background-color: none;
     height: 30px;
     padding: 10px;
 }
 header nav div button{
-
     height: 80px;
     width: 65;
     background-color: white;

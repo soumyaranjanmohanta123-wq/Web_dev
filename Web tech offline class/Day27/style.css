@@ -1,0 +1,22 @@
+* {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+body{
+    background: linear-gradient(rgb(249, 183, 183), pink,rgb(238, 65, 94));
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 0, 43);
+}
+p{
+    text-align: justify;
+    color: rgb(84, 5, 18);
+}
+P::first-letter{
+    font-size: 50px;
+    color: red;
+}
