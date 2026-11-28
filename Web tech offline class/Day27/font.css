@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "soumya";
+    src: url("./CinzelDecorative-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    font-family: "soumya";
+}
